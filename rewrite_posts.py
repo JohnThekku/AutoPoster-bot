@@ -37,7 +37,7 @@ for idx, row in enumerate(rows, start=2):
             model="gpt-3.5-turbo",
             messages=[
                 {"role": "system", "content": "You are a Twitter growth hacker."},
-                {"role": "user", "content": f"Split this into 5 short tweets: {raw_log}"}
+                {"role": "user", "content": f"Split the following log into 3–5 high-quality, unnumbered X (Twitter) posts. Each tweet should stand alone, focus on insights, progress, or thoughts. Avoid numbering. Separate each tweet with '/x/' on a new line. {raw_log}"}
             ]
         ).choices[0].message.content.strip()
 
@@ -50,3 +50,5 @@ for idx, row in enumerate(rows, start=2):
 
     except Exception as e:
         print(f"❌ Error on row {idx}: {e}")
+
+
