@@ -1,4 +1,4 @@
 gspread
 python-dotenv
 openai
-flask
+flask (optional)

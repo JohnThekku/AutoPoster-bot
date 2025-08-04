@@ -23,6 +23,7 @@ This project was built by me, combining:
 - Python + `gspread` to talk to Google Sheets
 - `dotenv` for secret management
 - OpenAI API to handle the rewriting
+- Optional: `Flask` + Chrome Extension frontend for triggering the rewrite
 
 ---
 
