@@ -47,6 +47,7 @@ This project was built by me, combining:
 ### 1. Clone this repo
 
 git clone https://github.com/YourUsername/AutoPoster-bot.git
+
 cd AutoPoster-bot
 
 
