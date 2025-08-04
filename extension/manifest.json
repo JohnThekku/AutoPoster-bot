@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "AutoPoster Trigger",
+    "version": "1.0",
+    "description": "One-click trigger to rewrite posts using GPT.",
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "permissions": ["scripting"],
+    "host_permissions": ["http://127.0.0.1:5000/"]
+  }
+  
