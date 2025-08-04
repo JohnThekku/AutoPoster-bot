@@ -7,7 +7,7 @@ document.getElementById("trigger").addEventListener("click", () => {
       document.getElementById("status").textContent = data;
     })
     .catch(err => {
-      document.getElementById("status").textContent = "❌ Server not running";
+      document.getElementById("status").textContent = "Server not running";
     });
   });
   
