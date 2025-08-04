@@ -62,7 +62,8 @@ Create a .env file based on this format on .env.example
 
 **Make sure your service account has edit access to your Google Sheet.**
 
+---
 
+### Contributions Welcome!
 
-Contributions Welcome!
-This project is open to contributions — feel free to fork, improve, or create issues if you have ideas.
+This project is open to contributions
