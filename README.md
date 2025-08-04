@@ -58,11 +58,7 @@ pip install -r requirements.txt
 
 ### 3. Set up your .env
 
-Create a .env file based on this format:
-    OPENAI_API_KEY=your_openai_key
-    GOOGLE_CREDS_JSON=autoposter-creds.json
-    SHEET_URL=https://docs.google.com/spreadsheets/d/your_sheet_id/edit
-    GOOGLE_SHEET_NAME=AutoPosterBot
+Create a .env file based on this format on .env.example
 **Make sure your service account has edit access to your Google Sheet.**
 
 
