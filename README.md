@@ -59,6 +59,7 @@ pip install -r requirements.txt
 ### 3. Set up your .env
 
 Create a .env file based on this format on .env.example
+
 **Make sure your service account has edit access to your Google Sheet.**
 
 
